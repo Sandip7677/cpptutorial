@@ -3,8 +3,8 @@
 // using std::cin;
 // using std::cout;
 // using std::endl;
-// typedef std::cout cout_std;
-// typedef std::endl endl_std;
+// typedef std::cout cout_std;--->>wrong
+// typedef std::endl endl_std;--->>wrong
 class A
 {
     int a, b;
