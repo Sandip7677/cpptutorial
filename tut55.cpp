@@ -2,19 +2,19 @@
 using namespace std;
 
 class base{
-    int database;
     public:
-    void data(int a){
-        database=a;
+    int database;
+    void data(){
+        database;
         cout<<"value in database is:"<<database<<endl;
     }
 };
 
 class derived:public base{
-    int dataderive;
     public:
-    void data(int a){
-        dataderive=a;
+    int dataderive;
+    void data(){
+        dataderive;
         cout<<"value in variable is:"<<dataderive<<endl;
     }
 };
@@ -23,9 +23,11 @@ int main()
     base *b;
     derived d;
     b=&d;
-    b->data(45);
+    b->database=45;
+    b->data();
     derived *f;
     f=&d;
-    f->data(676);
+    f->dataderive=459;
+    f->data();
     return 0;
 }
