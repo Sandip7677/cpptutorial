@@ -9,10 +9,10 @@ class shop
     static int count;
 
 public:
-    void counter(void)
-    {
-        count = 0;
-    }
+    // void counter(void)
+    // {
+    //     count = 0;
+    // }
     void getdata(void);
     void printdata(void);
 };
@@ -53,7 +53,7 @@ int main()
     cout << "no of item you want to put in" << endl;
     cin >> r;
     shop first;
-    first.counter();
+    // first.counter();
     for (int i = 0; i < r; i++)
     {
         first.getdata();

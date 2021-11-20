@@ -1,0 +1,4 @@
+ what is this?
+It is an example for demostration of file handling.
+now we are testing another example.
+this tesing is for article on gfg.
