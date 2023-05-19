@@ -1,4 +1,5 @@
-// Given three integers n, k, target, and an array of coins of size n. Find if it is possible to make a change of target cents by using an infinite supply of each coin but the total number of coins used must be exactly equal to k.
+// Given three integers n, k, target, and an array of coins of size n. Find if it is possible to make a change of target cents by
+// using an infinite supply of each coin but the total number of coins used must be exactly equal to k.
 
 // Example 1:
 
